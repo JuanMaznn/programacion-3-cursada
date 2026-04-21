@@ -4,11 +4,12 @@
 
 ### Requisitos
 - Crear el .env con:
-DB_HOST=
+DB_HOST=localhost
 DB_USER=
 DB_PASSWORD=
 DB_NAME=
 
 ### Comandos
 - npm install
+- npm run db (ejecuta el archivo 01_conectarMysql.js)
 

@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "db": "node 01_conectarMysql.js"
   },
   "repository": {
     "type": "git",
@@ -13,7 +14,7 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "type": "commonjs",
+  "type": "module",
   "bugs": {
     "url": "https://github.com/JuanMaznn/programacion-3-cursada/issues"
   },
@@ -21,6 +22,5 @@
   "dependencies": {
     "express": "^5.2.1",
     "mysql2": "^3.22.2"
-  },
-  "type": "module"
+  }
 }
