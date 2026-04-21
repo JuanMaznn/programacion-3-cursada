@@ -9,11 +9,6 @@ DB_USER=
 DB_PASSWORD=
 DB_NAME=
 
-- Crear el archivo .gitginore y agregar:
-node_modules/
-.env
-package-lock.json
-
 ### Comandos
 - npm install
 
